@@ -10,4 +10,5 @@
     <color name="card_blue">#0000FF</color>
     <color name="card_pink">#F64680</color>
     <color name="card_red">#F44336</color>
+    <color name="card_gray">#808080</color>
 </resources>
