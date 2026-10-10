@@ -118,6 +118,13 @@ fun ProfilCardWidget(
                     fontWeight = fontWeightNama,
                     color = colorResource(id = R.color.text_white)
                 )
+                if(noTelpResId != null){
+                    Text(
+                        text = stringResource(id = noTelpResId),
+                        fontSize = 14.sp,
+                        color = colorResource(id = R.color.text_cyan)
+                    )
+                }
             }
         }
     }
