@@ -68,5 +68,17 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
             color = Color.DarkGray
         )
     }
+}
+
+@Composable
+fun ProfilCardWidget(
+    namaResId: Int,
+    alamatResId: Int,
+    noTelpResId: Int? = null,
+    warnaCardResId: Int,
+    warnaAlamatResId: Int = R.color.text_white,
+    fontFamilyNama: FontFamily = FontFamily.Default,
+    fontWeightNama: FontWeight = FontWeight.Bold
+) {
 
 }
