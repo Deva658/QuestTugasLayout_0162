@@ -42,6 +42,12 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
             fontFamilyNama = FontFamily.Cursive,
             fontWeightNama = FontWeight.Normal
         )
+        ProfilCardWidget(
+            namaResId = R.string.nama_2,
+            alamatResId = R.string.alamat_2,
+            noTelpResId = R.string.notelp_2,
+            warnaCardResId = R.color.card_pink,
+        )
     }
 
 }
