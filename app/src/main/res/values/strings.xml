@@ -7,10 +7,11 @@
     <string name="alamat_1">Berlin, Jerman</string>
     <string name="nama_2">Santi Apriansah</string>
     <string name="alamat_2">Paris, Prancis</string>
-    <string name="notelp_2">+62 811111111</string>
+    <string name="notelp_2">811111111</string>
     <string name="nama_3">Karina</string>
-    <string name="notelp_3">+62 812222222</string>
+    <string name="notelp_3">812222222</string>
     <string name="alamat_3">Seoul, Korea</string>
     <string name="nama_4">Daeng</string>
-    <string name="notelp_4">+62 813333333</string>
+    <string name="notelp_4">813333333</string>
+    <string name="alamat_4">Tokyo, Jepang</string>
 </resources>
