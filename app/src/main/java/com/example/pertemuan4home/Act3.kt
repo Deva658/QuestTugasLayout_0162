@@ -9,6 +9,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
@@ -61,6 +62,11 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
             warnaCardResId = R.color.card_gray,
         )
         Spacer(modifier = Modifier.weight(1f))
+        Text(
+            text = stringResource(id = R.string.copy),
+            fontSize = 12.sp,
+            color = Color.DarkGray
+        )
     }
 
 }
