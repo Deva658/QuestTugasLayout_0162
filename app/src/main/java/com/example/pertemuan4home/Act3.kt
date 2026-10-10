@@ -48,6 +48,12 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
             noTelpResId = R.string.notelp_2,
             warnaCardResId = R.color.card_pink,
         )
+        ProfilCardWidget(
+            namaResId = R.string.nama_3,
+            alamatResId = R.string.alamat_3,
+            noTelpResId = R.string.notelp_3,
+            warnaCardResId = R.color.card_red,
+        )
     }
 
 }
