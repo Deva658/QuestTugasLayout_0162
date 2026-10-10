@@ -10,6 +10,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -32,6 +33,15 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
             fontSize = 18.sp,
         )
         Spacer(modifier = Modifier.height(20.dp))
+        ProfilCardWidget(
+            namaResId = R.string.nama_1,
+            alamatResId = R.string.alamat_1,
+            noTelpResId = null,
+            warnaCardResId = R.color.card_blue,
+            warnaAlamatResId = R.color.text_yellow,
+            fontFamilyNama = FontFamily.Cursive,
+            fontWeightNama = FontWeight.Normal
+        )
     }
 
 }
