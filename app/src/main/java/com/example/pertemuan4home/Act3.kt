@@ -107,6 +107,12 @@ fun ProfilCardWidget(
                 contentDescription = null,
                 modifier = Modifier.size(50.dp)
             )
+            Column(
+                horizontalAlignment = Alignment.CenterHorizontally,
+                modifier = Modifier.weight(1f)
+            ){
+
+            }
         }
     }
 }
