@@ -1,6 +1,8 @@
 package com.example.pertemuan4home
 
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -90,6 +92,14 @@ fun ProfilCardWidget(
             .padding(horizontal = 20.dp, vertical = 8.dp),
         colors = CardDefaults.cardColors(containerColor = colorResource(id = warnaCardResId))
     ){
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(16.dp),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.SpaceBetween
+        ){
 
+        }
     }
 }
