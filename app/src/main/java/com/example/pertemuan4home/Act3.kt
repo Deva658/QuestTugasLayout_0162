@@ -111,7 +111,13 @@ fun ProfilCardWidget(
                 horizontalAlignment = Alignment.CenterHorizontally,
                 modifier = Modifier.weight(1f)
             ){
-
+                Text(
+                    text = stringResource(id = namaResId),
+                    fontSize = 20.sp,
+                    fontFamily = fontFamilyNama,
+                    fontWeight = fontWeightNama,
+                    color = colorResource(id = R.color.text_white)
+                )
             }
         }
     }
