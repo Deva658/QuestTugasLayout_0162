@@ -60,6 +60,7 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
             noTelpResId = R.string.notelp_4,
             warnaCardResId = R.color.card_gray,
         )
+        Spacer(modifier = Modifier.weight(1f))
     }
 
 }
