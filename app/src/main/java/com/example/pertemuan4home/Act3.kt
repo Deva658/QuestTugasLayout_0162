@@ -125,6 +125,11 @@ fun ProfilCardWidget(
                         color = colorResource(id = R.color.text_cyan)
                     )
                 }
+                Text(
+                    text = stringResource(id = alamatResId),
+                    fontSize = 14.sp,
+                    color = colorResource(id = warnaAlamatResId)
+                )
             }
         }
     }
